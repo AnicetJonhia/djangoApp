@@ -1,0 +1,34 @@
+# Environnements virtuels
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Fichiers de configuration
+*.pyc
+__pycache__/
+
+# Paramètres locaux de Django
+/local_settings.py
+
+# Database
+db.sqlite3
+*.sqlite3
+
+# Fichiers de migration
+*/migrations/*.py
+*/migrations/*.pyc
+
+# Static files
+/staticfiles/
+media/
+
+# PyCharm
+.idea/
+
+# Node.js modules (si tu utilises Node.js dans ton projet)
+node_modules/
+
+# VSCode (si tu utilises Visual Studio Code)
+.vscode/

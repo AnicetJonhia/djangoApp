@@ -1,0 +1,13 @@
+{% extends 'djangoApp/base.html'%}
+{% block content %}
+
+
+<div>{% include 'djangoApp/form.html' with action='/' %}</div>
+<div>
+    {% for message in messages %}
+
+    <div>{% include 'djangoApp/message.html' with message=message %}</div>
+    {% endfor %}
+</div>
+
+{% endblock %}
